@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+
+    <h1>Jogo da Forca</h1>
+
+    <img src="img/forca0.png" alt="imagem da forca vazia" id="img">
+
+    <div id="wordEx"></div>
+    <input type="text" id="letterInput" placeholder="Adivinhe uma letra">
+    <button id="bTnGuess" onclick="guessLetter()">Chute</button>
+
+    <h2>Letras chutadas</h2>
+
+    <div id="guessedLetters">
+        
+    </div>
+
+    <div id="message">Você venceu!</div><br>
+
+    <button id="restart" onclick="startGame()">Jogar de novo</button>
+
+
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
